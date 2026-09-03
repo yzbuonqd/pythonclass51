@@ -1,0 +1,53 @@
+#Bài 2a1
+"""
+a,b = map(int,input().split())
+print(a+b)
+print(a-b)
+print(a*b)
+if b == 0:
+    print('INVALID')
+else :
+    print(f"{a/b:.2f}")
+"""
+#Bài 2a2
+n=int(input())
+if n%2==0:
+    print('YES')
+else:
+    print('NO')
+if n%3==0 and n%5==0:
+    print('YES')
+else:
+    print('NO')
+if n%3==0 and n%7!=0:
+    print('YES')
+else:
+    print('NO')
+if n%3==0 or n%7==0:
+    print('YES')
+else:
+    print('NO')
+if 30<n<50:
+    print('YES')
+else:
+    print('NO')
+if n>=30 and (n%2==0 or n%3==0 or n%5==0):
+    print('YES')
+else:
+    print('NO')
+if 10<=n<=99 and n%10 in(2,3,5,7):
+    print('YES')
+else:
+    print('NO')
+if n<=100 and n%23==0:
+    print('YES')
+else:
+    print('NO')
+if n in range(10, 21):
+    print('NO')
+else:
+    print('YES')
+if n%10 in (0,3,6,9) :
+    print('YES')
+else:
+    print('NO')
